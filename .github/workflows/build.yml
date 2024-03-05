@@ -2,7 +2,7 @@ name: build-and-push-image
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
     paths-ignore:
       - '/README.md'
 jobs:
